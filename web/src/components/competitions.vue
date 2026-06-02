@@ -3,9 +3,19 @@ import Competition from "@/components/competition.vue"
 import CompetitionType from "@/models/competition"
 
 const competitions: CompetitionType[] = [
-  new CompetitionType("10k", "10 km", "fa-person-running", "page-0-out-image-2-Image2.jpg"),
-  new CompetitionType("3,5k", "3,5 km", "fa-person-running", "run-bg.jpg"),
-  new CompetitionType("Kinderläufe", "230 - 1.800m", "fa-person-running", "kids-bg.jpg"),
+  new CompetitionType(
+    "Sparkasse City Run",
+    "10 km",
+    "fa-person-running",
+    "page-0-out-image-2-Image2.jpg",
+  ),
+  new CompetitionType("EWS Energy Fun Run", "3,5 km", "fa-person-running", "run-bg.jpg"),
+  new CompetitionType(
+    "Sport Rinnerthaler Kinderbewerbe",
+    "230 - 1.800m",
+    "fa-person-running",
+    "kids-bg.jpg",
+  ),
   new CompetitionType("Nordic Walking", "3,5 km", "fa-person-hiking", "walkers-bg.jpg"),
 ]
 </script>
